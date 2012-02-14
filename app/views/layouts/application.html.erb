@@ -10,14 +10,22 @@
   <div class = 'main'>
 	<nav class = 'round'>
 	 <ul>
-		<li><%= link_to 'HOME', root_path %></li>
-		<li><%= link_to '3dwork', '/3dwork' %></li>
+		<li><%= link_to 'Home', root_path %></li>
+		<li><%= link_to 'Bilder', '/Bilder' %></li>
+		<li><%= link_to 'Schreiben', '/Autor' %></li>
+		<li></li><li></li><li></li><li></li><li></li>
+		<li><%= link_to 'Projekte', '/projekte' %></li>
+		<li><%= link_to 'Ich', '/uebermich' %></li>
+		<li><%= link_to 'Impressum', '/Impressum' %></li>
 	  </ul>
 	</nav>
 	<section>
 	  <%= yield %>
+  	    <br><br><br>
 	</section>
+	
   </div>
-
+  
 </body>
+
 </html>
