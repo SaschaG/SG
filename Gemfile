@@ -1,16 +1,5 @@
-source 'https://rubygems.org'
-gem 'pg'
-gem 'rails', '3.2.1'
+source 'http://rubygems.org'
 
-gem 'sqlite3'
-gem "rake", '0.9.2.2'
-gem 'json'
+gem 'rails', '3.0.7'
+gem 'sqlite3-ruby', '1.3.2', :require => 'sqlite3'
 
-group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
-
-  gem 'uglifier', '>= 1.0.3'
-end
-
-gem 'jquery-rails'
