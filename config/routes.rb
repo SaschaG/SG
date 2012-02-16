@@ -10,6 +10,7 @@ Sascha::Application.routes.draw do
   match "Projekte/esisttot" => 'pages#projekte_esisttot'
   match "Projekte/Splatterkram" => 'pages#projekte_Splatterkram'
   match "Autor/WeltendesNebels" => 'pages#Autor_WeltendesNebels'
+  match "Autor/Schwarzmalerei" => 'pages#Autor_Schwarzmalerei'
 
   
 end
